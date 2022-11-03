@@ -127,9 +127,9 @@ const USER_CONFIG = {
     
      {
       // 想要发送的人的名字
-      name: '小关',
+      name: '二爷',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'onh1R5_GD9EFQwwzvQ3fzoJQ7k50',
+      id: 'onh1R52iE3i2cKbzfqa5LEWFzMA4',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'DsZ-bAVHoYd9uLqhiGrsIR14CHoR4c3E8sgBIUA4m1U',
       province: '黑龙江',
