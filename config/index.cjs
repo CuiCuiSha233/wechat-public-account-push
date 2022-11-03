@@ -127,9 +127,9 @@ const USER_CONFIG = {
     
      {
       // 想要发送的人的名字
-      name: '查理',
+      name: '小关',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
-      id: 'onh1R5-YIFJL_ROxRgPsAS8ZNM6E',
+      id: 'onh1R5_GD9EFQwwzvQ3fzoJQ7k50',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'DsZ-bAVHoYd9uLqhiGrsIR14CHoR4c3E8sgBIUA4m1U',
       province: '黑龙江',
@@ -186,6 +186,37 @@ const USER_CONFIG = {
         { keyword: 'marry_day', date: '2012-02-29' },
       ],
     },
+    
+     {
+      // 想要发送的人的名字
+      name: '圈子',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'onh1R5-YIFJL_ROxRgPsAS8ZNM6E',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'DsZ-bAVHoYd9uLqhiGrsIR14CHoR4c3E8sgBIUA4m1U',
+      province: '黑龙江',
+      // 所在城市或县区
+      city: '大庆',
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '03-16',
+      festivals: [
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '圈子', year: '2002', date: '03-16',
+        },
+         {
+          type: '生日', name: '二爷', year: '2003', date: '07-24',
+        },
+        {
+          type: '生日', name: '小何', year: '2002', date: '10-13',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        { keyword: 'marry_day', date: '2012-02-29' },
+      ],
+    },
+    
     
   ],
 
