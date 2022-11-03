@@ -8,10 +8,10 @@
 const USER_CONFIG = {
 
   // 使用微信测试号：公众号APP_ID
-  APP_ID: 'wx8fd3a65c53c82cb7',
+  APP_ID: '',
 
   // 使用微信测试号：公众号APP_SECRET
-  APP_SECRET: 'caa6f2b30f0adce4aa7a88fe3b6d84de',
+  APP_SECRET: '',
   
     SWITCH: {
     /** 每日天气 */
