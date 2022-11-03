@@ -56,9 +56,6 @@ const USER_CONFIG = {
   
   
 
-  PROVINCE: '广东',
-  CITY: '惠州',
-
   USERS: [
     {
       // 想要发送的人的名字
@@ -67,6 +64,10 @@ const USER_CONFIG = {
       id: 'onh1R5-YIFJL_ROxRgPsAS8ZNM6E',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
       useTemplateId: 'SFdl_wRbTP28VbsEUJOK8t2q0_ioqFMx9C3cA-xTyck',
+      province: '辽宁',
+      // 所在城市或县区
+      city: '沈阳',
+      // 新历生日, 仅用作获取星座运势, 格式必须
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '7-24',
       festivals: [
@@ -84,9 +85,46 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: '{marry_day', date: '2022-03-16' },
+        { keyword: 'love_day', date: '2022-03-16' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-08-24' },
       ],
     },
+    
+      {
+      // 想要发送的人的名字
+      name: '小刘',
+      // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'onh1R5_GD9EFQwwzvQ3fzoJQ7k50',
+      // 使用微信测试号：你想对他发送的模板消息的模板ID
+      useTemplateId: 'SFdl_wRbTP28VbsEUJOK8t2q0_ioqFMx9C3cA-xTyck',
+      province: '辽宁',
+      // 所在城市或县区
+      city: '沈阳',
+      // 新历生日, 仅用作获取星座运势, 格式必须
+      // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
+      horoscopeDate: '7-24',
+      festivals: [
+        // 注意：此条配置日期为阳历日期，因为`type`中 “生日” 之前没有 * 符号
+        {
+          type: '生日', name: '小刘同学家的小李', year: '2003', date: '06-18',
+        },
+         {
+          type: '生日', name: '小李同学家的小刘', year: '2003', date: '07-24',
+        },
+        {
+          type: '节日', name: '牵手纪念日', year: '2022', date: '08-24',
+        },
+      ],
+      // 我们在一起已经有xxxx天了的配置
+      customizedDateList: [
+        // 在一起的日子
+        { keyword: 'love_day', date: '2022-03-16' },
+        // 结婚纪念日
+        { keyword: 'marry_day', date: '2022-08-24' },
+      ],
+    },
+    
   ],
 
 
@@ -95,9 +133,15 @@ const USER_CONFIG = {
 
   CALLBACK_USERS: [
     {
-      name: '自己',
+      name: '查理',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'onh1R5-YIFJL_ROxRgPsAS8ZNM6E',
+    }
+    
+     {
+      name: '小李',
+      // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
+      id: 'onh1R5_GD9EFQwwzvQ3fzoJQ7k50',
     }
   ],
 
