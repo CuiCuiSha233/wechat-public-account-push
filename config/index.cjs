@@ -59,7 +59,7 @@ const USER_CONFIG = {
   USERS: [
     {
       // 想要发送的人的名字
-      name: '小刘',
+      name: '查理',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'onh1R5-YIFJL_ROxRgPsAS8ZNM6E',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -93,7 +93,7 @@ const USER_CONFIG = {
     
       {
       // 想要发送的人的名字
-      name: '小刘',
+      name: '小李',
       // 使用微信测试号：扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'onh1R5_GD9EFQwwzvQ3fzoJQ7k50',
       // 使用微信测试号：你想对他发送的模板消息的模板ID
@@ -136,11 +136,12 @@ const USER_CONFIG = {
       name: '查理',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'onh1R5-YIFJL_ROxRgPsAS8ZNM6E',
-  
+    },
+    {
       name: '小李',
       // 使用微信测试号：自己的微信id，扫码关注你的微信测试号后生成的一段字符串，在测试号后台能看到
       id: 'onh1R5_GD9EFQwwzvQ3fzoJQ7k50',
-    }
+    },
   ],
 
 }
